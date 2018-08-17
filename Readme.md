@@ -18,3 +18,5 @@
         * `js`文件中使用三方`js`库使用`import`
     3. 使用一个和缺省配置一致的配置文件
         * 指定配置文件的构建 `npx webpack --config webpack.config.js`
+    4. 改造`package.json`使我们可以通过`npm run build`进行构建
+        * `package.json`中`scripts`中添加`"build": "webpack"`
